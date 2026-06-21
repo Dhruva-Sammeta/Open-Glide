@@ -3,10 +3,11 @@ This is the reference repo for the Opensource ardupiolt winged flight platform, 
 Open glide is meant to be a public reference, buildable platform where anyone with a printer and a few parts can make a robust airframe.
 This project was no small feet overall, requiring tons of effort physically, what started out as this sketch:
 
+# Quick Design history:
 <img width="708" height="472" alt="image" src="https://github.com/user-attachments/assets/bf6c5130-65de-4f76-a644-69e82d8003ee" />
 
 
-Where i basically just had to work with what components i had, which were definetley not limited, but must be used in away where it's not specific or dependent:
+Where i basically just had to work with what components i had, which were definetley not limited in potential options or cheaper setups, but must be used in away where it's not specific or dependent on what i had:  
 - Carbon fiber rod (12mm OD, ~1000 mm length)
 - FS-i6S + 10ch Tx
 - TBS Lucid H7
@@ -48,7 +49,7 @@ and moving further in CAD (fusion 360):
 <img width="1183" height="774" alt="image" src="https://github.com/user-attachments/assets/3247f970-bbfa-4b32-97d8-def2696b975a" />
 
 ## Trial & error: Struss design
-the original version failed to have proper torsional supports for the fuselege, cuasing it to bend, seen irl as:
+the original version failed to have proper torsional supports for the fuselege, causing it to twist, seen irl as:
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/f718c295-8cb3-491d-bffe-3ae65a54c3cb" />
 <img width="1600" height="720" alt="image" src="https://github.com/user-attachments/assets/c737528d-c475-4841-a8b5-457005c07141" />
 
@@ -58,3 +59,9 @@ and to address this, torosional strength was added:
 # Prototype 1:
 <img width="1600" height="720" alt="image" src="https://github.com/user-attachments/assets/6a659197-c0ae-40c0-832f-349b8bd8d0c8" />
 demo vid: https://youtu.be/HvyGQakFnIc (static due to lack of time to launch)
+
+# Build Procedure:
+To build Open Glide, you will first need to have a _3D printer, fliament, soldering iron, hex bits/allen keys, along with super glue is possible_, then aqquire the main parts list as seem in the BOM, mainly consisting of the Flight Controller, Receiver and transmitter, Servo motors, BLDC's, their compatable esc's, gps, node mcu and jumper wires.
+
+1. Printing wing:
+
